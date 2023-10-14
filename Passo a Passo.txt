@@ -1,0 +1,23 @@
+Instalar o Visual Studio Code
+
+Instalar o Node
+
+Inicializar um projeto Note
+npm init --yes
+
+Instalar o Cypress
+npm install -D cypress
+
+Abrir o Cypress
+
+npx cypress open
+
+site com sintaxe docs.cypress.io
+
+"Hooks" - são trechos de códigos para executar antes(before) ou depois(after) dos testes
+
+executar cypress em background
+npx cypress run 
+
+executar cypress em background mudando configurações, no exemplo alterando tamanho da tela:
+npx cypress run --config viewportHeight=1000, viewportWidth=600
